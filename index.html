@@ -1,18 +1,15 @@
 <html>
   <head>
-    <title>Informa IS: UI Developer Candidate Coding Task</title>
+    <title>Graph using SVG</title>
   </head>
   <body>
-    <h1>Informa IS: UI Developer Candidate Coding Task</h1>
+    <h1>Graph using SVG library svg.js</h1>
     <table border=1>
       <tr>
         <td width=50%> <!-- Column Begins -->
           <p>
-            <h2>Instructions</h2>
-            <h4>Part 1</h4>
             <ol>
-              <li>
-                Using HTML and Javascript, plot the following data on a chart (as points, with Risk on the x-axis and return on the y-axis): <br>
+              <li>  Chart representing a small data set.
                 <table id='tb' border=1>
                   <tr>
                     <th>Symbol</th>
@@ -53,33 +50,25 @@
                 </table>
               </li>
               <li>
-                Make the table above interactive, so that when the mouse cursor hovers above a row, the row is highlighted and the appropriate
+                The table above is interactive, so that when the mouse cursor hovers above a row, the row is highlighted and the appropriate
                 point on the chart is highlighted. Alternatively, you can make the point on the chart highlight the row in the table, when the mouse hovers above the point.
               </li>
-              <li>Fix any problems you see with this page (including the markup) and document your rationale.</li>
-            </ol>
-            <h4>Part 2</h4>
-            <ol>
               <li>
-              Write a reusable component that manages the selection state of products currently shown in the chart. Internally,
-              the products are represented by unique string ids (Symbol). The following operations need to be supported:
+              A reusable component manages the selection state of products currently shown in the chart.
                 <ul>
                   <li>Changing the selection status for a product</li>
                   <li>Querying the selection status for a product</li>
                   <li>Setting the list of displayed products</li>
-                  <li>The component should provide a means for clients to receive notifications whenever the selection state of a product changes.</li>
+                  <li>The component provides a mean for clients to receive notifications whenever the selection state of a product changes.</li>
                 </ul>
               </li>
             </ol>
           </p>
-          <hr>
-          You may use any external libraries and modify this page as you see fit.
         </td> <!-- Column Ends -->
         <td> <!-- Column Begins -->
          <!-- Chart goes here -->
           <i>
             <div id='drawing' style='margin-left: 50px'>  </div>
-
           </i>
         </td> <!-- Column Ends -->
       </tr>
